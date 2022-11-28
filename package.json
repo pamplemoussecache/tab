@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Tab for a Cause.",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/node": "^7.20.2",
@@ -25,7 +26,8 @@
     "npmlog": "^7.0.1",
     "prettier": "^2.7.1",
     "sharp": "^0.31.2",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "build": "yarn run all:install & docker-compose build",
